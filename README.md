@@ -1,10 +1,10 @@
-#Multimodal aspect-based sentiment sentiment analysis on Elbphilharmonie posts
+# Multimodal aspect-based sentiment sentiment analysis on Elbphilharmonie posts
 
 This repository contains part of the code for our paper "Structuring User-Generated Content on Social Media with Multimodal Aspect-Based Sentiment Analysis".
 
 In the ```scraping/``` folder, the code for scraping the data form Flickr can be found as well as the dataset used for our study. Due to the size of the data, we do not put the images in this repository (except for the test dataset). The images can be downloaded with the ```scraping/download_images.py``` script.
 
-To download and train the used models, refer to their original Github pages at (https://github.com/naver/deep-image-retrieval)[https://github.com/naver/deep-image-retrieval] and (https://github.com/cbaziotis/datastories-semeval2017-task4)[https://github.com/cbaziotis/datastories-semeval2017-task4], respectively.
+To download and train the used models, refer to their original Github pages at [https://github.com/naver/deep-image-retrieval] and [https://github.com/cbaziotis/datastories-semeval2017-task4], respectively.
 
 ## Repository structure
 ```
