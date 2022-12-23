@@ -74,7 +74,7 @@ class Datastories_embedding:
     def load_embeddings_dict(self):
         embeddings_dict = {}
         dim = 100
-        f = open('../datastories-semeval2017-task4/embeddings/datastories.twitter.100d.txt', "r", encoding="utf-8")
+        f = open('sentiment_models/datastories.twitter.100d.txt', "r", encoding="utf-8")
         for i, line in enumerate(f):
             values = line.split()
             word = values[0]
